@@ -24,18 +24,29 @@
     "name": "Daniel Brooker.",
     "email": "dan@nocturnalcode.com"
   },
-  "contributors": [{
-    "name": "Adnan M.Sagar, PhD.",
-    "email": "adnan@websemantics.ca"
-  }],
+  "contributors": [
+    {
+      "name": "Adnan M.Sagar, PhD.",
+      "email": "adnan@websemantics.ca"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/websemantics/file-icons-js/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "rollup": "2.33.3"
   },
-  "homepage": "https://github.com/websemantics/file-icons-js"
+  "homepage": "https://github.com/websemantics/file-icons-js",
+  "upstream": {
+    "version": 1,
+    "sources": {
+      "main": {
+        "repository": "https://github.com/websemantics/file-icons-js.git",
+        "commit": "8b397223dc14fa57600f1b06c787dfd2107c4449",
+        "branch": "master"
+      }
+    }
+  }
 }

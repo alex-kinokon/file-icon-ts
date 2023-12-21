@@ -8,20 +8,8 @@
     "Adnan M.Sagar, <adnan@websemantics.ca>"
   ],
   "description": "File specific icons for the browser from Atom File-icons, https://github.com/file-icons/atom",
-  "keywords": [
-    "javascript",
-    "nodejs",
-    "icons",
-    "octicons",
-    "mfizz",
-    "devicons"
-  ],
+  "keywords": ["javascript", "nodejs", "icons", "octicons", "mfizz", "devicons"],
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "test",
-    "tests"
-  ],
+  "ignore": ["**/.*", "node_modules", "test", "tests"],
   "dependencies": {}
 }
