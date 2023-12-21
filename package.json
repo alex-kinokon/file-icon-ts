@@ -34,9 +34,12 @@
   "bugs": {
     "url": "https://github.com/websemantics/file-icons-js/issues"
   },
-  "dependencies": {},
   "devDependencies": {
-    "rollup": "2.33.3"
+    "@aet/eslint-rules": "^0.0.10-beta.2",
+    "@types/node": "^20.10.5",
+    "esbuild": "^0.19.10",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   },
   "homepage": "https://github.com/websemantics/file-icons-js",
   "upstream": {
@@ -48,5 +51,13 @@
         "branch": "master"
       }
     }
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "tabWidth": 2,
+    "printWidth": 90,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "es5"
   }
 }
